@@ -20,6 +20,6 @@ mongoose.connect(`mongodb+srv://Fredykv:cocacola1@rollingjb.vovhd.mongodb.net/te
 
 let db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
-db.once("open", function () {
-	console.log("Mongo se conecto, ya tienes acceso a la base de datos. . .");
-});
+// db.once("open", function () {
+// 	console.log("Mongo se conecto, ya tienes acceso a la base de datos. . .");
+// });
